@@ -1,0 +1,24 @@
+.navigationBar {
+    background-color: #158330;
+    color: #ffffff;
+    width: 100%;
+}
+
+.navigationBar ul {
+    list-style-type: circle;
+    padding: 0;
+}
+
+.navigationBar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigationBar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigationBar a:hover {
+    text-decoration: underline;
+}
