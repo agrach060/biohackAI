@@ -15,7 +15,7 @@ function Home() {
                     BiohackAI is an innovative platform dedicated to providing
                     intelligent guidance and information in the field of healthcare.
                     Our AI system understands the symptoms, care methods, and standard
-                    rehabilitation training and treatments for vatious common diseases,
+                    rehabilitation training and treatments for various common diseases,
                     helping you better understand the condition and engage in effective
                     self-care.
                 </p>
