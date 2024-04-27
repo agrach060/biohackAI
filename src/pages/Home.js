@@ -10,7 +10,7 @@ function Home() {
                 {/* ---------------------------------- */}
                 {/*       NAME OF OUR PROJECT          */}
                 {/* ---------------------------------- */}
-                <h1>BiohackAI</h1>
+
                 <p>
                     BiohackAI is an innovative platform dedicated to providing
                     intelligent guidance and information in the field of healthcare.
