@@ -1,25 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../styles/Home.css';
+import '../styles/ChatBox.css';
+import ChatBox from '../components/ChatBox';
 
 function Home() {
-    // ----------------------------------
-    //          LIST OF INTERESTS 
-    // ----------------------------------
-    const [interests, setInterests] = useState([
-        "Coding",
-        "Reading",
-        "Hiking",
-        "Cooking"
-    ]);
-
-    // ----------------------------------
-    //          REORDER LIST ITEMS 
-    // ----------------------------------
-    const reorderList = () => {
-        const shuffledInterests = [...interests].sort(() => Math.random() - 0.5);
-        setInterests(shuffledInterests);
-    };
-
     return (
         <div className="App">
             <header className="header-container">
@@ -42,24 +26,7 @@ function Home() {
                     {/*              CHAT BOX              */}
                     {/* ---------------------------------- */}
                     <h2>Chat box here</h2>
-
-                </section>
-                <section>
-                    {/* ---------------------------------- */}
-                    {/*           INTERESTS LIST           */}
-                    {/* ---------------------------------- */}
-                    <h2>My Interests</h2>
-                    <ul>
-                        {interests.map((interest, index) => (
-                            <li key={index}>{interest}</li>
-                        ))}
-                    </ul>
-                </section>
-                <section>
-                    {/* ---------------------------------- */}
-                    {/*          REORDER BUTTON            */}
-                    {/* ---------------------------------- */}
-                    <button onClick={reorderList} style={{ marginTop: '4px', backgroundColor: '#007bff', color: '#fff', fontWeight: 'bold', padding: '8px 16px', borderRadius: '4px', cursor: 'pointer' }}>Reorder Interests</button>
+                    <ChatBox />
                 </section>
             </main>
         </div >
