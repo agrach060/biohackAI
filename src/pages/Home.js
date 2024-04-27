@@ -24,37 +24,25 @@ function Home() {
         <div className="App">
             <header className="header-container">
                 {/* ---------------------------------- */}
-                {/*       WELCOME MESSAGE              */}
+                {/*       NAME OF OUR PROJECT          */}
                 {/* ---------------------------------- */}
-                <h1>Hi everyone! Welcome to my page!</h1>
+                <h1>BiohackAI</h1>
+                <p>
+                    BiohackAI is an innovative platform dedicated to providing
+                    intelligent guidance and information in the field of healthcare.
+                    Our AI system understands the symptoms, care methods, and standard
+                    rehabilitation training and treatments for vatious common diseases,
+                    helping you better understand the condition and engage in effective
+                    self-care.
+                </p>
             </header>
             <main>
                 <section className="main-container">
                     {/* ---------------------------------- */}
-                    {/*           NAVIGATION               */}
+                    {/*              CHAT BOX              */}
                     {/* ---------------------------------- */}
-                    <section className="navigation-instructions">
-                        <p>
-                            <h3>Learn how to navigate using the keyboard: <br /></h3>
-                            <strong>Tab (⇥):</strong> Move forward through items. <br />
-                            <strong>Enter (↵):</strong> Activate links and buttons. <br />
-                            <strong>Escape (Esc):</strong> Close menus. <br />
-                            <strong>Arrow keys:</strong> Navigate between items in the navigation bar and between links.
-                        </p>
-                    </section>
-                </section>
-                <section>
-                    {/* ---------------------------------- */}
-                    {/*              ABOUT ME              */}
-                    {/* ---------------------------------- */}
-                    <h2>About Me</h2>
-                    <p>
-                        My name is Anna Gracheva and I am a senior student at UW Bothell. I am majoring in Computer Science and love to code.
-                    </p>
-                    {/* ---------------------------------- */}
-                    {/*           PICTURE                  */}
-                    {/* ---------------------------------- */}
-                    <img src="/my_picture.jpg" alt="Anna Gracheva" style={{ width: '360px', height: '470px' }} />
+                    <h2>Chat box here</h2>
+
                 </section>
                 <section>
                     {/* ---------------------------------- */}
