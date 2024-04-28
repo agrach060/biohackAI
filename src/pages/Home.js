@@ -25,7 +25,8 @@ function Home() {
                     {/* ---------------------------------- */}
                     {/*              CHAT BOX              */}
                     {/* ---------------------------------- */}
-                    <h2>Chat box here</h2>
+                   
+                    <h2>How Can I help you today?</h2>
                     <ChatBox />
                 </section>
             </main>
