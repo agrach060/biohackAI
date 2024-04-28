@@ -31,6 +31,15 @@ function Home() {
                     <ChatBox />
                 </section>
             </main>
+            {/* ---------------------------------- */}
+            {/*          FOOTER SECTION          */}
+            {/* ---------------------------------- */}
+            <footer className="footer-container">
+                <p>
+                    ©2024 BiohackAI <br />
+                    Developed By Anna Gracheva, Quynh Lam, Fangxia Ding
+                </p>
+            </footer>
         </div >
     );
 }

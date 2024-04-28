@@ -22,6 +22,32 @@
     align-items: flex-start;
 }
 
+
+.footer-container {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #BCBCBC;
+}
+
+.App {
+    position: relative;
+    /* Ensure the parent container has a positioned ancestor */
+    min-height: 100vh;
+    /* Ensure the container spans the entire viewport height */
+}
+
+
+.navigation-instructions {
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    max-width: 400px;
+}
+
 .logo {
     position: absolute;
     top: 20px;
