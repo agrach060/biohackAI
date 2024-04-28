@@ -51,20 +51,36 @@ function ChatBox() {
                     <button type="submit">Analyze</button>
                 </div>
             </form>
-            {error && <div className="error">{error}</div>}
             {response && (
-                <div className="response">
-                    <h3>Analysis Result:</h3>
-                    {response.potentialCauses && (
-                        <p>Potential Causes: {response.potentialCauses.join(', ')}</p>
-                    )}
-                    {response.followupQuestions && (
-                        <p>Follow-up Questions: {response.followupQuestions.join(', ')}</p>
-                    )}
-                    {Array.isArray(response.symptoms) && (
-                        <p>Symptoms: {response.symptoms.join(', ')}</p>
-                    )}
-                </div>
+                <table>
+                    <tr>
+                        <td> <div className="response">
+                            <table>
+                                <tr>
+                                    <td> <img src="bio_logo.ico" width="30px" height="30px" alt=""></img></td>
+                                    <td><h3>  BiohackAI Robot:</h3></td>
+                                </tr>
+                            </table>
+
+                            {response.potentialCauses && (
+                                <p>Potential Causes: {response.potentialCauses.join(', ')}</p>
+                            )}
+                            {response.followupQuestions && (
+                                <p>Follow-up Questions: {response.followupQuestions.join(', ')}</p>
+                            )}
+                            {Array.isArray(response.symptoms) && (
+                                <p>Symptoms: {response.symptoms.join(', ')}</p>
+                            )}
+                        </div>
+                        </td>
+                        <td>
+                            <div>
+                                <img src="bot.png" alt=""></img>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
             )}
         </div>
     );
