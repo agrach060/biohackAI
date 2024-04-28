@@ -1,8 +1,12 @@
 .App {
   text-align: center;
+<<<<<<< Updated upstream
   background-color: #f0ffec;
   display: flex;
   flex-direction: column;
+=======
+  background-color: #6943ff;
+>>>>>>> Stashed changes
   align-items: center;
 }
 

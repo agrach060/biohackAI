@@ -4,6 +4,20 @@
     justify-content: center;
     gap: 20px;
     width: 100%;
+<<<<<<< Updated upstream
+=======
+    height: 400px;
+    font-size: x-large;
+    background-image: linear-gradient(to right, rgb(103, 103, 255), rgb(255, 109, 255));
+    color: rgb(0, 0, 0);
+}
+
+.header-container p {
+    position: absolute;
+    top: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+>>>>>>> Stashed changes
 }
 
 .main-container {
@@ -14,10 +28,19 @@
     align-items: flex-start;
 }
 
+<<<<<<< Updated upstream
 .navigation-instructions {
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
     max-width: 400px;
+=======
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 42%;
+    width: 250px;
+    height: auto;
+>>>>>>> Stashed changes
 }

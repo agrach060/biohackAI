@@ -21,12 +21,26 @@ function Home() {
     };
 
     return (
-        <div className="App">
+        <div className="Home">
             <header className="header-container">
                 {/* ---------------------------------- */}
+<<<<<<< Updated upstream
                 {/*       WELCOME MESSAGE              */}
                 {/* ---------------------------------- */}
                 <h1>Hi everyone! Welcome to my page!</h1>
+=======
+                {/*           PROJECT NAME             */}
+                {/* ---------------------------------- */}
+                <img src="./logo.png" alt="Logo" className="logo" />
+                <p>
+                    BiohackAI is an innovative platform dedicated to providing
+                    intelligent guidance and information in the field of healthcare.
+                    Our AI system understands the symptoms, care methods, and standard
+                    rehabilitation training and treatments for various common diseases,
+                    helping you better understand the condition and engage in effective
+                    self-care.
+                </p>
+>>>>>>> Stashed changes
             </header>
             <main>
                 <section className="main-container">
