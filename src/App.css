@@ -1,7 +1,7 @@
 .App {
-  text-align: center;
-  background-color: #6943ff;
-  align-items: center;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(103, 103, 255), rgb(255, 109, 255));
+    align-items: center;
 }
 
 .App-link {
