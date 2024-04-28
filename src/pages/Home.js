@@ -74,6 +74,15 @@ function Home() {
                     <button onClick={reorderList} style={{ marginTop: '4px', backgroundColor: '#007bff', color: '#fff', fontWeight: 'bold', padding: '8px 16px', borderRadius: '4px', cursor: 'pointer' }}>Reorder Interests</button>
                 </section>
             </main>
+            {/* ---------------------------------- */}
+            {/*          FOOTER SECTION          */}
+            {/* ---------------------------------- */}
+            <footer className="footer-container">
+                <p>
+                    ©2024 BiohackAI <br />
+                    Developed By Anna Gracheva, Quynh Lam, Fangxia Ding
+                </p>
+            </footer>
         </div >
     );
 }
