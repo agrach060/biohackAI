@@ -23,13 +23,17 @@ function ChatBox() {
                 symptoms: inputText
             }
         };
-
+        var response = null;
         try {
-            const response = await axios.request(options);
+            //debugger;
+            response = await axios.request(options);
             setResponse(response.data);
             setError(null);
         } catch (error) {
+            // debugger;
             console.error('Error analyzing symptoms:', error);
+            //setResponse(response?.data.error);
+            setResponse(error.response.data.error);
             setError(error.message);
         }
     };
@@ -70,6 +74,11 @@ function ChatBox() {
                             )}
                             {Array.isArray(response.symptoms) && (
                                 <p>Symptoms: {response.symptoms.join(', ')}</p>
+                            )}
+
+                            {!response.potentialCauses && (
+                                /* <p>Error: {response}</p>*/
+                                <p><b>Error:</b> {"It looks like your message might have been a typo or an accidental input. Could you please provide more context or clarify what you meant? I'm here to help!"}</p>
                             )}
                         </div>
                         </td>
