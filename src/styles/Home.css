@@ -31,6 +31,7 @@
     padding: 10px;
     background-color: #BCBCBC;
     box-sizing: border-box;
+    background-image: linear-gradient(to right, rgb(103, 103, 255), rgb(255, 109, 255));
 }
 
 .App {
