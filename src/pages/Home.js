@@ -5,12 +5,12 @@ import ChatBox from '../components/ChatBox';
 
 function Home() {
     return (
-        <div className="App">
+        <div className="Home">
             <header className="header-container">
                 {/* ---------------------------------- */}
-                {/*       NAME OF OUR PROJECT          */}
+                {/*           PROJECT NAME             */}
                 {/* ---------------------------------- */}
-
+                <img src="./logo.png" alt="Logo" className="logo" />
                 <p>
                     BiohackAI is an innovative platform dedicated to providing
                     intelligent guidance and information in the field of healthcare.
@@ -19,6 +19,7 @@ function Home() {
                     helping you better understand the condition and engage in effective
                     self-care.
                 </p>
+
             </header>
             <main>
                 <section className="main-container">
